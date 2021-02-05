@@ -1,0 +1,11 @@
+{
+  "coc.preferences.jumpCommand": "vsplit",
+  "languageserver": {
+    "kotin": {
+      "command": "kotlin-language-server",
+      "filetypes": ["kotlin"]
+    }
+  },
+  "yaml.schemaStore.enable": true,
+  "flutter.lsp.initialization.closingLabels": true
+}

@@ -1,0 +1,16 @@
+let mapleader="\<space>"
+" set hlsearch
+"set scrolloff=10
+"set sidescrolloff=15
+
+set easymotion
+set NERDTree
+set surround
+set multiple-cursors
+set commentary
+set argtextobj
+set highlightedyank
+set keep-english-in-normal
+
+nnoremap <Leader>T :NERDTreeToggle<CR>
+nnoremap <Leader>f :action ReformatCode<CR>:action OptimizeImports<CR>:w<CR>
